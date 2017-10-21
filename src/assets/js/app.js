@@ -33,9 +33,9 @@ _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
 
 var mySVGsToInject = document.querySelectorAll('img.inject-me');
 
-var likes = new window.Likes();
-likes.populateLikesInPage();
-likes.setupLike();
+//var likes = new window.Likes();
+//likes.populateLikesInPage();
+//likes.setupLike();
 
 SVGInjector(mySVGsToInject);
 var $searchInput = $('input[type="search"]')
@@ -86,7 +86,7 @@ if($searchInput.is('*')) {
         $('#search-results-container').hide();
         $('#result-count').text(results.length);
       }
-      likes.populateLikesInPage();
+      //likes.populateLikesInPage();
     }
   });
   var $currentSort = $('[data-sort-current]');

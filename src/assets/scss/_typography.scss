@@ -1,15 +1,4 @@
 // ZURB logo font
-@font-face {
-  font-family: 'zurb-logo';
-  font-style: normal;
-  font-weight: normal;
-  src: url('/assets/fonts/zurb-webfont.eot'),
-  url('/assets/fonts/zurb-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/zurb-webfont.svg') format('svg'),
-  url('/assets/fonts/zurb-webfont.ttf') format('truetype'),
-  url('/assets/fonts/zurb-webfont.woff') format('woff');
-}
-
 @mixin proxima-nova {
   font-family: 'Proxima Nova', 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

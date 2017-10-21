@@ -41,7 +41,6 @@ $global-nav-hover-color: lighten($global-nav-bg, 10%);
     padding-bottom: 0 !important;
     padding-top: 0 !important;
 
-    &:hover:not(.button, .zurb-logo),
     &:focus {
       background: $global-nav-hover-color;
     }
@@ -107,8 +106,7 @@ $global-nav-hover-color: lighten($global-nav-bg, 10%);
 
   .zurb-logo {
     color: $white;
-    font-family: "zurb-logo";
-    font-size: 38px;
+    font-size: 24px;
     font-weight: normal;
     opacity: 0.75;
     transition: $transition;
