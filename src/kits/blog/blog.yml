@@ -6,16 +6,4 @@ images:
   'hero': 'blog-kit.jpg'
   'card': 'blog-kit.jpg'
 blocks:
-  - responsive-blog-post
-  - responsive-blog-footer
-  - tag-cloud
-  - responsive-nav-social
-  - pagination-pointed
-  - pagination-responsive-numbers
-  - image-hover-wrapper
-  - responsive-social-media-section
-  - card-flex-article
-  - read-more
-  - featured-blog-posts-panel
-  - quote-inline
-  - neat-article-container
+  - mkb-full-width-tabs

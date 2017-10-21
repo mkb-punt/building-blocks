@@ -1,0 +1,12 @@
+name: "Contact Form"
+tags:
+  - form
+  - contact
+category: containers
+description: Tabs full width
+versions:
+  - 6.4.2
+author:
+  name: Oscar Weijman
+grid: float
+containerClass: container-padded row column medium-12
