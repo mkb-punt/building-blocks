@@ -1,0 +1,65 @@
+$mkb-full-width-tabs-border-color: #d1d4d2;
+.mkb-full-width-tabs {
+
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid $mkb-full-width-tabs-border-color;
+    top: rem-calc(59);
+    width: 100%;
+  }
+
+  .tabs {
+    border: none;
+    &-title {
+      border-top: 3px solid white;
+      border-left: 2px solid transparent;
+      border-right: 2px solid transparent;
+      position: relative;
+      a {
+        background-color: $white;
+        color: $dark-gray;
+        font-size: rem-calc(16);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      &.is-active {
+        border-color: $primary-color;
+        border-left: 2px solid $mkb-full-width-tabs-border-color;
+        border-right: 2px solid $mkb-full-width-tabs-border-color;
+        &:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          bottom: -3px;
+          left: 0;
+          background-color: $white;
+        }
+      }
+    }
+    &-content {
+      border: none;
+    }
+  }
+
+  @include breakpoint(medium down) {
+    &:before {
+      border: none;
+    }
+    .tabs {
+      &-title {
+        width: 100%;
+        border-top: 1px solid $mkb-full-width-tabs-border-color;
+        &.is-active {
+          border-left-color: transparent;
+          border-right-color: transparent;
+          a {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
